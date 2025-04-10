@@ -1,5 +1,5 @@
 import pytest
-from calculator.py import is_even
+from calculator import is_even
 
 def test_even():
     assert is_even(4) == True
